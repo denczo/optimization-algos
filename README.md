@@ -1,8 +1,7 @@
 # Optimization Algorithms
 
-A small collection of optimization algorithms (metaheuristics) implemented in Python.
-Each script solves the same example problem: finding the most efficient tour to
-visit a number of cities (a small Travelling Salesman Problem).
+Three small Python programs that find the shortest route to visit a set of cities.
+Each one uses a different method to solve the same problem.
 
 | Algorithm | Script |
 |-----------|--------|
@@ -64,8 +63,9 @@ If you change the amount of cities (countCities = x), you have to change the tem
 
 ## Genetic Algorithm
 
-A genetic-algorithm approach to the same tour problem, evolving a population of
-candidate tours through selection, crossover and mutation.
+Solves the same problem by keeping a group of possible routes and improving
+them over many rounds — combining the good ones and making small random
+changes to find shorter routes.
 
 Key parameters (top of `GeneticAlgorithm.py`):
 
