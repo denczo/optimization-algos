@@ -1,6 +1,6 @@
-# Machine Learning
+# Optimization Algorithms
 
-A small collection of optimization / search algorithms implemented in Python.
+A small collection of optimization algorithms (metaheuristics) implemented in Python.
 Each script solves the same example problem: finding the most efficient tour to
 visit a number of cities (a small Travelling Salesman Problem).
 
